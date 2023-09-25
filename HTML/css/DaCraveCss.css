@@ -1,0 +1,392 @@
+.{
+	margin:0;
+	padding:0;
+}
+header nav{
+	padding: 20px 0px 20px 0px;
+	margin: 0px 0px 20px 0px;
+	border-bottom: 3px;
+	border-bottom-color: #ECACCB;
+	border-bottom-style: solid;
+}
+nav a{
+	text-decoration: none!important;
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	font-weight: 200;
+	font-size: 25px;
+	padding: 20px 20px;
+	text-align: center;
+	color: #30AAD8;
+}
+#Title{
+	text-decoration: none!important;
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	font-weight: 200;
+	font-size: 45px;
+	padding: 10px 20px;
+	margin: 0px 10px;
+	text-align: center;
+	color: #841E5C;
+}
+
+.active{
+	height: 25px;
+	border-style: solid;
+	border-color: #ECACCB;
+	padding: 10px 10px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: 4px;
+	color: #ECACCB;
+}
+.HeaderImage{
+	background-image: url('../DaCraveImages/web-01.png');
+	background-size: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 1250px;
+	height: 500px;
+	text-align: center;
+	display: block;
+	display: flex;
+	justify-content: center;  
+	align-items: center;
+}
+#home{
+	background-image: url('../DaCraveImages/web-06.png');
+	background-position: center;
+	background-size: 100%;
+	opacity: 100%;
+	background-repeat: no-repeat;
+	padding: 40px 30px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	color: #841E5C;
+	font-family: Daytona;
+	src: url(Daytona.tff);
+}
+#home:hover{
+	background-image: url('../DaCraveImages/hover1.png');
+	background-position: center;
+	background-size: 100%;
+	opacity: 100%;
+}
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+footer{
+	background-color: #f8d6e6;
+	text-align: center;
+	padding: 20px;
+	margin: 100px 0px 0px 0px;
+	align-items: center;
+}
+footer img{
+	display: inline-block;
+	width: 20%;
+	padding: 20px 20px 0px 20px;
+}
+footer p{
+	margin: auto;
+	padding: 2px;
+}
+footer a{
+	text-decoration: none;
+	color: #841E5C;
+	font-size: 35px;
+	padding: 20px 20px 0px 20px;
+}
+footer ul{
+	list-style-type: none;
+	text-align: left;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: inline-block;
+	padding: 0px 0px 50px 0px;
+}
+
+.button{
+	background-image: url('../DaCraveImages/web-07.png');
+	background-position: center;
+	background-size: 20%;
+	opacity: 100%;
+	background-repeat: no-repeat;
+	padding: 40px 30px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;  
+	align-items: center;
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	font-weight: 100;
+}
+.button:hover{
+	background-image: url('../DaCraveImages/hover2.png');
+	background-position: center;
+	background-size: 20%;
+	opacity: 100%;
+}
+	
+h1{
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	text-align: center;
+	color: #841E5C;
+	font-weight: 200;
+	padding: 10px 10px;
+	font-size: 50px;
+}
+h2{
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	text-align: center;
+	color: #30AAD8;
+	font-weight: 200;
+	padding: 10px 10px;
+	font-size: 40px;
+}
+h3{
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	text-align: center;
+	color: #841E5C;
+	font-weight: 200;
+	padding: 10px 10px;
+	font-size:30px;
+
+}
+
+p{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 250px 10px 250px;
+	text-align: center;
+	font-size: 18px;
+}
+
+.cravepick{
+	background-color: #FBE500;
+	width: 100%;
+	display: inline-block;
+	justify-content: center;  
+	align-items: center;
+	padding: 40px 0px;
+	margin: 10px 0px;
+
+}
+.cravepick p{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 250px 10px 200px;
+	text-align: right;
+	font-size: 18px;
+	margin-left: auto;
+	
+}
+.cravepick img{
+	float: left;
+	margin: 40px 20px 0px 300px;
+	width: 20%;
+
+}
+.cravepick h3{
+	text-align: right;
+	padding: 10px 250px 10px 250px;
+	margin-left:10px ;
+
+}
+
+img{
+	width: 25%;
+}
+.Check-Out{
+	background-color: #FBE500;
+	margin:20px 0px;
+	padding: 20px;
+	text-align: center;
+}
+table{
+	display: inline-block;
+}
+.Check-Out img{
+	display: inline-block;
+}
+th{
+	font-family: Daytona;
+	src: url(Daytona.tff);
+	text-align: center;
+	color: #30AAD8;
+	font-weight: 150;
+	padding: 10px 10px;
+	font-size: 35px;
+}
+td{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 50px 30px 50px;
+	text-align: left;
+	font-size: 20px;
+	color: #ffffff;
+}
+#Pinfo{
+	background-color: #FBE500;
+	padding: 20px;
+	justify-content: center;  
+	align-items: center;
+	text-align: center;
+}
+
+input[type=text] {
+	border-style: solid;
+	border-color: #ECACCB;
+	padding: 10px 10px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: 20px;
+	background-color: #ffffff;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 60px 30px 60px;
+	text-align: center;
+	font-size: 20px;
+	justify-content: center;  
+	align-items: center;
+	width: 800px;
+}
+#Address{
+	padding: 10px 60px 100px 60px;
+}
+
+textarea{
+	border-style: solid;
+	border-color: #ECACCB;
+	padding: 10px 10px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: 20px;
+	background-color: #ffffff;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 60px 30px 60px;
+	text-align: center;
+	font-size: 20px;
+	justify-content: center;  
+	align-items: center;
+	width: 800px;
+}
+
+input[type=text]:focus {
+  border: 2px 4px solid red #ED4724;
+}
+
+#Payment{
+	background-color: #ECACCB;
+	padding: 20px;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 50px 30px 80px;
+	text-align: center;
+	font-size: 20px;
+	color: #ffffff;
+	margin: 50px 0px 50px 0px;
+}
+#Pinfo h3{
+	color: #ffffff;
+}
+#Payment h3{
+	color: #ffffff;
+}
+
+.FAQ{
+	text-align: center;
+	justify-content: center;  
+	align-items: center;
+}
+.FAQ ul{
+	list-style-type: none;
+	text-align: center;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	display: inline-block;
+	padding: 0px 0px 50px 0px;
+	margin: auto;
+}
+.FAQ li{
+	border-style: solid;
+	border-color: #ECACCB;
+	padding: 10px 10px;
+	border-radius: 23px;
+	border: 2px 4px;
+	margin: 20px;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 40px 10px 20px;
+	text-align: left;
+	font-size: 20px;
+}
+.FAQ p{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 5px 20px 10px 20px;
+	text-align: left;
+	font-size: 15px;
+}
+
+.Track{
+	background-color: #ffffff;
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	justify-content: center;  
+	align-items: center;
+}
+.comments{
+	display: inline-block;
+	justify-content: center;  
+	align-items: center;
+}
+.comments p{
+	font-family: "all-round-gothic", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	padding: 10px 250px 10px 250px;
+	text-align: left;
+	font-size: 18px;
+
+}
+.comments h3{
+	text-align: left;
+	padding: 10px 250px 10px 250px;
+	margin-left:10px ;
+	
+}
+.comments img{
+	width: 10%;
+	float: left;
+	margin: 40px 25px 0px 300px;
+}

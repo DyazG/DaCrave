@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/DaCraveCSS.css">
+	<link rel="stylesheet" href="https://use.typekit.net/tdc4bvq.css">
+	<title>DaCrave- Check-Out</title>
+	<script type="text/javascript">
+    function stopEnterKey(evt) {
+        var evt = (evt) ? evt : ((event) ? event : null);
+        var node = (evt.target) ? evt.target : ((evt.srcElement) ? evt.srcElement : null);
+        if ((evt.keyCode == 13) && (node.type == "text")) { return false; }
+    }
+    document.onkeypress = stopEnterKey;
+</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="HomePage.html"  id="Title">DA CRAVE</a>
+			<a href="CraveBowls.html" >Crave Bowls</a>
+			<a href="OurCrave.html">Our Crave</a>
+			<a href="ReachUs.html">Reach Us</a>
+			<a href="Questions.html"  > Have Questions?</a>
+			<a href="Cart.html" class = "active">My Cart </a>
+		</nav>
+	</header>
+	<main>
+		<h1>Check Out</h1>
+		<section class="Check-Out">
+			<img src="DaCraveImages/web-10.png" alt="order">
+			<table>
+				<tr>
+					<th colspan="3">Two Items</th>
+				</tr>
+				<tr>
+					<td>Coffee Berry</td>
+					<td>x1</td>
+					<td>30₺</td>
+				</tr>
+				<tr>
+					<td>Mini Crave</td>
+					<td>x1</td>
+					<td>30₺</td>
+				</tr>
+			</table>
+			<br>
+		</section>
+		<p>Total: 60₺</p>
+		<br>
+		
+		<div id="Pinfo">
+			<h3>Personal Information</h3>
+			<form>
+				<label for="Name-Surname"></label><br>
+				<input type="text" id="Name-Surname" placeholder="Name Surname" cols="5"><br>
+			</form>
+			<form>
+				<label for="Phone-Number"></label><br>
+				<input type="text" id="Phone-Number" placeholder="Phone Number"><br>
+			</form>
+			<form>
+				<textarea name="Text1" cols="40" rows="5" placeholder="Address" class="Address"></textarea>
+			</form>
+		</div >
+		<br>
+		
+		<div id="Payment">
+			<h3>Payment Method</h3>
+			<input type="checkbox" id="cash" name="cash" value="cash">
+			<label for="cash" class="cash"> Cash Payment</label><br>			
+			<br>
+			<details>
+				<summary>Card Payment</summary>
+					<form>
+				<label for="Card-Number" ></label><br>
+				<input type="text" id="Card-Number" placeholder="Card No"><br>
+			</form>
+			<form>
+				<label for="Name"></label><br>
+				<input type="text" id="Name" placeholder="Name on Card"><br>
+			</form>
+			<form>
+				<label for="CVV"></label><br>
+				<input type="text" id="CVV" placeholder="CVV"><br>
+			</form>
+			<form>
+				<label for="Expire"></label><br>
+				<input type="text" id="Expire" placeholder="d/yy"><br>
+			</form>
+			</details>
+		</div>
+		<a href="Your-Order.html" class="button">Order</a>
+	</main>
+	<footer>
+		<img src="DaCraveImages/FooterLogo.jpg" alt="Logo" > 
+		<ul>
+			<li> <a href="CraveBowls.html">Crave Bowls </a></li>
+			<li><a href="OurCrave.html">Our Crave </a></li>
+			<li><a href="ReachUs.html">Reach Us </a></li>
+			<li><a href="Questions.html">FAQ </a></li>
+		</ul>
+		<p>Come find us next to Sushico Koç University West Campus</p>
+		<p>Open Everyday 24/7</p>
+		<p id="rights"> Da Crave Co. All rights reserved </p>
+	</footer>
+</body>
